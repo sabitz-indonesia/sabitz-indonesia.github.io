@@ -32219,18 +32219,23 @@ ul.list-style-square {
     display: none;
 }
 
+.hide {
+    display: none !important;
+}
+
 @media (min-width: 992px) {
     .navbar-affix:not(.affix) .logo {
         display: none;
     }
     .big-logo {
+        animation: fadeIn 2s;
         display: block;
         position: fixed;
         z-index: 99;
         width: 100px;
         height: 100px;
         left: 50%;
-        top: 10px;
+        top: 20px;
         margin-left: -50px;
     }
 }
