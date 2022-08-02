@@ -32214,3 +32214,23 @@ ul.list-style-square {
         stroke-width: 2;
     }
 }
+
+.big-logo {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .navbar-affix:not(.affix) .logo {
+        display: none;
+    }
+    .big-logo {
+        display: block;
+        position: fixed;
+        z-index: 99;
+        width: 100px;
+        height: 100px;
+        left: 50%;
+        top: 10px;
+        margin-left: -50px;
+    }
+}

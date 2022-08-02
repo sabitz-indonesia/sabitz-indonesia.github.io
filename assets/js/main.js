@@ -722,6 +722,19 @@ function initMap() {
     cv_parent.style.animationDuration = vll_el.duration + "s";
   });
 
+  $(window).scroll(function(){
+    let currentScrollValue = $(document).scrollTop();
+    let maxScrollToHide = 100;
+    let imageSize = maxScrollToHide;
+    if(currentScrollValue <= maxScrollToHide){
+      imageSize = maxScrollToHide - currentScrollValue;
+    } else {
+      imageSize = 0;
+    }
+    $(".big-logo").height(imageSize);
+    $(".big-logo").width(imageSize);
+  });
+
 })( jQuery );
 
 
