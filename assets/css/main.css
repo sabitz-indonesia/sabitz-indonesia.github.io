@@ -32170,17 +32170,17 @@ ul.list-style-square {
     margin-right: 2.25rem !important;
 }
 
-.logo {
+.logo-svg {
     display: block;
     height: 110px;
     width: 540px;
 }
 
-.logo svg {
+.logo-svg svg {
     font-family: 'Guild', sans-serif;
 }
 
-.logo svg text {
+.logo-svg svg text {
     text-transform: uppercase;
     animation: stroke 3s alternate;
     stroke-width: 0;
