@@ -1,0 +1,6 @@
+@font-face {
+    font-family: 'Guild';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../fonts/guildof.woff2') format('woff2'), url('../../fonts/guildof.ttf') format('truetype');
+}
