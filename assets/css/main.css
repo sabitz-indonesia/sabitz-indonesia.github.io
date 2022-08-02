@@ -32228,7 +32228,7 @@ ul.list-style-square {
         display: none;
     }
     .big-logo {
-        animation: fadeIn 2s;
+        animation: fadeIn 3s;
         display: block;
         position: fixed;
         z-index: 99;

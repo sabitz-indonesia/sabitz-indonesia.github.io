@@ -724,7 +724,7 @@ function initMap() {
 
   setTimeout(function () {
     $(".big-logo").removeClass('hide');
-  }, 3000);
+  }, 2500);
 
   $(window).scroll(function () {
     let currentScrollValue = $(document).scrollTop();
