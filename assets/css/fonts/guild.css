@@ -4,3 +4,10 @@
     font-weight: 400;
     src: url('../../fonts/guildof.woff2') format('woff2'), url('../../fonts/guildof.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'Guild Bold';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../fonts/guild-bold-fix.woff2') format('woff2'), url('../../fonts/guild-bold-fix.ttf') format('truetype');
+}
