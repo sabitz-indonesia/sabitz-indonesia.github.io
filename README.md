@@ -1,5 +1,5 @@
 **Web Profil PT Sabitz Indonesia**
 
-Kami adalah harapan baru dalam mengarungi paradigma teknologi informasi. Kami memahami, mendampingi, serta menciptakan lingkungan bisnis yang tangguh dan toleran.
+Kami adalah *HARAPAN BARU* dalam mengarungi paradigma *TEKNOLOGI INFORMASI*, Kami memahami, mendampingi, serta menciptakan lingkungan bisnis yang *TANGGUH* dan *DINAMIS*
 
 [Sabitz.id](http://sabitz.id)
