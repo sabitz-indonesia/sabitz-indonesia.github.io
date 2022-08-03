@@ -32248,6 +32248,7 @@ ul.list-style-square {
     height: 100vh;
     background: #ffffff;
     transform: rotate(33deg) scaleX(-1);
+    /* animation: fadeinout 6s infinite; */
 }
 
 .moon,
@@ -32285,5 +32286,25 @@ ul.list-style-square {
 @keyframes roty {
     0% {
         transform: rotatey(calc(var(--i) * 0.5turn));
+    }
+}
+
+@-webkit-keyframes fadeinout {
+    0%,
+    100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeinout {
+    0%,
+    100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
     }
 }
