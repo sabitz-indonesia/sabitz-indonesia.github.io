@@ -483,7 +483,7 @@ function initMap() {
   //--------------------- Preloader ----------------------
   if (preloader.enabled == true) {
     window.addEventListener('load', function () {
-      $('.preloaderWrapper').delay(12000).fadeOut();
+      $('.preloaderWrapper').delay(100).fadeOut();
       $('body').addClass('animRDY');
     });
   }
