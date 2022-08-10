@@ -719,7 +719,8 @@ function initMap() {
   let v_loader_list = document.querySelectorAll('[data-video="progress"]');
   Array.prototype.forEach.call(v_loader_list, function (vll_el) {
     let cv_parent = vll_el.parentElement.querySelector('.progress-bar');
-    cv_parent.style.animationDuration = vll_el.duration + "s";
+    if (cv_parent != null)
+      cv_parent.style.animationDuration = vll_el.duration + "s";
   });
 
   setTimeout(function () {
