@@ -32183,7 +32183,7 @@ ul.list-style-square {
 .logo-svg svg text {
     text-transform: uppercase;
     animation: stroke 4s alternate;
-    stroke-width: 3;
+    stroke-width: 0;
     stroke: #3a3a3a;
     font-size: 88px;
     fill: #3a3a3a;
@@ -32195,7 +32195,7 @@ ul.list-style-square {
         stroke: #3a3a3a;
         stroke-dashoffset: 25%;
         stroke-dasharray: 0 50%;
-        stroke-width: 4;
+        stroke-width: 2;
     }
     70% {
         fill: rgba(72, 138, 20, 0);
@@ -32204,14 +32204,14 @@ ul.list-style-square {
     80% {
         fill: rgba(72, 138, 20, 0);
         stroke: #3a3a3a;
-        stroke-width: 5;
+        stroke-width: 3;
     }
     100% {
         fill: #3a3a3a;
         stroke: rgba(54, 95, 160, 0);
         stroke-dashoffset: -25%;
         stroke-dasharray: 50% 0;
-        stroke-width: 2;
+        stroke-width: 0;
     }
 }
 
